@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/VISHA/AndroidStudioProjects/Astra-app/app/src/main/res/layout/activity_drawer.xml" value="0.2" />
+        <entry key="..\:/Users/VISHA/AndroidStudioProjects/Astra-app/app/src/main/res/layout/activity_logged_in.xml" value="0.2" />
+        <entry key="..\:/Users/VISHA/AndroidStudioProjects/Astra-app/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/VISHA/AndroidStudioProjects/Astra-app/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/VISHA/AndroidStudioProjects/Astra-app/app/src/main/res/layout/content_drawer.xml" value="0.2" />
         <entry key="..\:/Users/lukma/AndroidStudioProjects/Astra/app/src/main/res/drawable/layout_box.xml" value="0.2265" />
         <entry key="..\:/Users/lukma/AndroidStudioProjects/Astra/app/src/main/res/drawable/layoutdesign.xml" value="0.2265" />
         <entry key="..\:/Users/lukma/AndroidStudioProjects/Astra/app/src/main/res/drawable/switch_thum.xml" value="0.2265" />

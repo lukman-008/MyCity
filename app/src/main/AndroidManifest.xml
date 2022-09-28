@@ -14,6 +14,11 @@
         android:theme="@style/Theme.Astra"
         tools:targetApi="31">
         <activity
+            android:name=".drawer"
+            android:exported="false"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.Astra.NoActionBar" />
+        <activity
             android:name=".loggedIn"
             android:exported="false" />
         <activity
@@ -27,7 +32,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
