@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
                     firebaseAuth.signInWithEmailAndPassword(email , password).addOnCompleteListener {
                         if (it.isSuccessful)
                         {
-                                val intent = Intent(this,loggedIn::class.java)
+                                val intent = Intent(this,NavigationDrawer::class.java)
                                 startActivity(intent)
                             Toast.makeText(this,"welcome",Toast.LENGTH_SHORT).show()
                         }
