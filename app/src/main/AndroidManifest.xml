@@ -7,17 +7,12 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/mycity"
-        android:label="MyCity"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Astra"
         tools:targetApi="31">
-        <activity
-            android:name=".NavigationDrawer"
-            android:exported="false"
-            android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/Theme.Astra.NoActionBar" />
         <activity
             android:name=".loggedIn"
             android:exported="false" />
@@ -32,7 +27,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true"></activity>
     </application>
 
 </manifest>
