@@ -97,4 +97,14 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+    override fun onStart() {
+        super.onStart()
+        if (firebaseAuth.currentUser!=null)
+        {
+            val intent = Intent(this,drawer::class.java)
+            startActivity(intent)
+        }
+
+    }
 }
